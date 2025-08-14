@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Tennis Bracelet",
+    "price": 1599,
+    "slug": "tennis-bracelet",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "white gold"
+      },
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "yellow gold"
+      }
+    ],
+    "carats": ["2.0", "3.0", "4.0"]
+  },
+  {
+    "id": 2,
+    "name": "Chain Link Bracelet",
+    "price": 799,
+    "slug": "chain-link-bracelet",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "rose gold"
+      }
+    ],
+    "carats": ["1.0", "1.5"]
+  }
+]

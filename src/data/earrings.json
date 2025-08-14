@@ -1,0 +1,40 @@
+[
+  {
+    "id": 1,
+    "name": "Diamond Stud Earrings",
+    "price": 899,
+    "slug": "diamond-stud-earrings",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "white gold"
+      },
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "yellow gold"
+      }
+    ],
+    "carats": ["0.25", "0.5", "1.0"]
+  },
+  {
+    "id": 2,
+    "name": "Drop Diamond Earrings",
+    "price": 1299,
+    "slug": "drop-diamond-earrings",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "pear",
+        "metal": "white gold"
+      },
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "pear",
+        "metal": "rose gold"
+      }
+    ],
+    "carats": ["0.5", "0.75", "1.0"]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Diamond Riviera Necklace",
+    "price": 2999,
+    "slug": "diamond-riviera-necklace",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "white gold"
+      },
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "yellow gold"
+      }
+    ],
+    "carats": ["5.0", "7.0", "10.0"]
+  },
+  {
+    "id": 2,
+    "name": "Station Necklace",
+    "price": 1499,
+    "slug": "station-necklace",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "rose gold"
+      }
+    ],
+    "carats": ["2.0", "3.0"]
+  }
+]

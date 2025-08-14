@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "name": "Solitaire Pendant",
+    "price": 699,
+    "slug": "solitaire-pendant",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "white gold"
+      },
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "round",
+        "metal": "yellow gold"
+      }
+    ],
+    "carats": ["0.25", "0.5", "0.75"]
+  },
+  {
+    "id": 2,
+    "name": "Heart Pendant",
+    "price": 899,
+    "slug": "heart-pendant",
+    "images": [
+      {
+        "url": "/placeholder.svg?height=400&width=400",
+        "shape": "heart",
+        "metal": "rose gold"
+      }
+    ],
+    "carats": ["0.5", "1.0"]
+  }
+]
