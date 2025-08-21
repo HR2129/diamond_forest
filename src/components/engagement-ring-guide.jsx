@@ -7,35 +7,35 @@ const EngagementRingGuide = () => {
   const ringStyles = [
     {
       name: "Solitaire",
-      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", // Update with your image path
+      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", 
       description:
         "The solitaire is the most classic engagement ring design, featuring a single center diamond that takes the spotlight. With no distractions, the beauty of the stone truly shines. Ideal for someone who appreciates simplicity, tradition, and timeless elegance.",
       bestFor: "Minimalists, classic romantics, or anyone who wants their diamond to do all the talking.",
     },
     {
       name: "Nature Inspired",
-      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", // Update with your image path
+      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", 
       description:
         "Nature-inspired rings bring the beauty of the outdoors to your finger with floral motifs, vine-like bands, leaf patterns, or petals embracing the center stone. These rings blend artistry with natural elements — perfect for the dreamers and nature lovers.",
       bestFor: "Nature enthusiasts, free spirits, or anyone drawn to elegance and detail.",
     },
     {
       name: "Three-Stone",
-      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", // Update with your image path
+      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", 
       description:
         "The three-stone ring symbolizes the past, present, and future, featuring three diamonds that represent a lifelong journey. This design offers a balanced elegance with a touch of sophistication.",
       bestFor: "Those who value symbolism and a meaningful representation of their relationship.",
     },
     {
       name: "Accented",
-      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", // Update with your image path
+      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", 
       description:
         "Accented rings feature a center stone enhanced by smaller surrounding diamonds, adding sparkle and intricacy. This style combines boldness with delicate detailing for a stunning effect.",
       bestFor: "Those who love a mix of boldness and refinement in their jewelry.",
     },
     {
       name: "Bezel",
-      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", // Update with your image path
+      image: "https://assets.ajio.com/medias/sys_master/root/20210918/eiy7/6144e20caeb269a26896cc2d/-473Wx593H-462975711-gold-MODEL.jpg", 
       description:
         "The bezel ring features a sleek metal rim that secures the center stone, offering a modern and secure design. Its clean lines make it both stylish and durable.",
       bestFor: "Modern minimalists or those seeking a contemporary, low-profile look.",
@@ -47,14 +47,14 @@ const EngagementRingGuide = () => {
       {/* Header Section */}
       <div className="relative w-full h-96 bg-blue-100">
         <img
-          src="https://images.pexels.com/photos/6632216/pexels-photo-6632216.jpeg" // Replace with your header image URL or path
+          src="https://images.pexels.com/photos/6632216/pexels-photo-6632216.jpeg" 
           alt="Engagement Ring Guide Header"
           
           
           className="h-96 w-full object-center object-cover "
         />
         {/* <Image
-          src="https://example.com/engagement-guide-header.jpg" // Replace with your header image URL or path
+          src="https://example.com/engagement-guide-header.jpg" 
           alt="Engagement Ring Guide Header"
           layout="fill"
           objectFit="cover"
@@ -110,8 +110,8 @@ const EngagementRingGuide = () => {
                 /> */}
               </div>
               <div className="w-full md:w-2/3">
-                <h2 className="text-2xl font-serif font-bold mb-2">{style.name}</h2>
-                <p className="text-gray-600 mb-4">{style.description}</p>
+                <h2 className="text-5xl font-serif font-bold mb-2">{style.name}</h2>
+                <p className="text-gray-600 mb-4 text-2xl">{style.description}</p>
                 <p className="text-sm text-gray-500 italic">Best for: {style.bestFor}</p>
               </div>
             </div>
