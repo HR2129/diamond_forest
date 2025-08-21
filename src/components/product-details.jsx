@@ -249,13 +249,13 @@ export default function ProductDetail({ slug }) {
     )
   }
 
-  const handleCombinationSelect = (combo) => {
-    setSelectedCombinationId(combo.id)
-    setCurrentImageIndex(0) // Reset to first image
+  // const handleCombinationSelect = (combo) => {
+  //   setSelectedCombinationId(combo.id)
+  //   setCurrentImageIndex(0) // Reset to first image
 
-    // Update URL with new combination
-    updateURL(combo.shape, combo.metal, selectedCarat)
-  }
+  //   // Update URL with new combination
+  //   updateURL(combo.shape, combo.metal, selectedCarat)
+  // }
 
   const handleCaratSelect = (carat) => {
     setSelectedCarat(carat)
@@ -308,7 +308,7 @@ export default function ProductDetail({ slug }) {
             <div className="grid grid-cols-12 gap-4">
               {/* Main Image */}
               <div className="col-span-12">
-                <div className="aspect-square bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+                <div className="aspect-square  rounded-lg overflow-hidden hover:shadow-lg transform transition duration-300">
                   <img
                     src={currentCombinationImages[currentImageIndex]?.url || selectedCombination.image}
                     alt={`${product.name} - ${selectedCombination.shape} ${selectedCombination.metalName}`}
