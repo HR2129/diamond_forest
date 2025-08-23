@@ -115,6 +115,7 @@ const EngagementRingGuide = () => {
                 <p className="text-sm text-gray-500 italic">Best for: {style.bestFor}</p>
               </div>
             </div>
+            
           ))}
         </div>
       </div>
