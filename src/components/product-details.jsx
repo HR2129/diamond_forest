@@ -257,14 +257,14 @@ export default function ProductDetail({ slug }) {
   //   updateURL(combo.shape, combo.metal, selectedCarat)
   // }
 
-  const handleCaratSelect = (carat) => {
-    setSelectedCarat(carat)
+  // const handleCaratSelect = (carat) => {
+  //   setSelectedCarat(carat)
 
-    // Update URL with new carat
-    if (selectedCombination) {
-      updateURL(selectedCombination.shape, selectedCombination.metal, carat)
-    }
-  }
+  //   // Update URL with new carat
+  //   if (selectedCombination) {
+  //     updateURL(selectedCombination.shape, selectedCombination.metal, carat)
+  //   }
+  // }
 
   return (
     <div className="min-h-screen bg-white py-40 text-black">

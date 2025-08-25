@@ -496,7 +496,7 @@ export default function JewelryCategory({ category, data }) {
 
     return (
       <div
-        className="bg-white rounded-2xl p-6 flex flex-col items-center hover:shadow-lg transition-all duration-300 cursor-pointer"
+        className="bg-white rounded-2xl p-16 flex flex-col items-center hover:shadow-lg transition-all duration-300 cursor-pointer"
         onClick={handleCardClick}
       >
         {/* Item Image */}
@@ -504,7 +504,7 @@ export default function JewelryCategory({ category, data }) {
           <img
             src={img || "/placeholder.svg?height=128&width=128"}
             alt={`${item.name} - ${sel.shape} ${sel.metal}`}
-            className="object-contain transition-transform w-96 h-96 duration-300 hover:scale-105"
+            className="object-contain transition-transform w-80 h-80 duration-300 hover:scale-105"
           />
         </div>
 
