@@ -4,7 +4,7 @@ export default function HeroSection() {
   return (
     <section className="relative h-[85vh] w-full overflow-hidden">
       {/* Hero Image */}
-      <div className="absolute inset-0 mt-28">
+      <div className="absolute inset-0 mt-16">
         <img
           src="/home.jpg"
           alt="Luxury jewelry on natural branches"
